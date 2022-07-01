@@ -12,6 +12,7 @@ import static io.qameta.allure.Allure.step;
 @Owner("allure8")
 public class AuthTest {
 
+
     @Test
     @AllureId("10845")
     @DisplayName("Авторизация через яндекс для Автоматизации")
