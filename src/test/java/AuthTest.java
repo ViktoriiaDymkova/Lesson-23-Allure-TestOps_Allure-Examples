@@ -43,8 +43,7 @@ public class AuthTest {
     @AllureId("10884")
     @DisplayName("Авторизация через яндекс для Автоматизации(clone)")
     @Tags({@Tag("blocker"), @Tag("web tests")})
-    @Owner("admin")
-    @Feature("Авторизация")
+
     public void testGoogleAuth01() {
         step("Открываем главную страницу");
         step("Нажимаем кнопку Авторизация");
@@ -69,8 +68,7 @@ public class AuthTest {
     @AllureId("10842")
     @DisplayName("Авторизация через MAIL")
     @Tags({@Tag("blocker"), @Tag("web tests")})
-    @Owner("admin1")
-    @Feature("Авторизация")
+
     public void testGoogleAuth02() {
         step("Открываем главную страницу");
         step("Нажимаем кнопку Авторизация");
