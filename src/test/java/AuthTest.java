@@ -66,10 +66,10 @@ public class AuthTest {
     }
 
     @Test
-    @AllureId("")
+    @AllureId("10842")
     @DisplayName("Авторизация через MAIL")
     @Tags({@Tag("blocker"), @Tag("web tests")})
-    @Owner({"admin", "admin1"})
+    @Owner("admin1")
     @Feature("Авторизация")
     public void testGoogleAuth02() {
         step("Открываем главную страницу");
