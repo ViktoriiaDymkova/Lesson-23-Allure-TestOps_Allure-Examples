@@ -12,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 @Owner("allure8")
 public class AuthTest {
 
-
+// проверить чтобы работало в аллюр и запускалось в ДЖ
     @Test
     @AllureId("10845")
     @DisplayName("Авторизация через яндекс для Автоматизации")
